@@ -1,0 +1,139 @@
+.menu {
+    display: flex;
+    overflow: hidden;
+    flex-direction: row;
+    padding-left: 8%;
+    font-weight: 500;
+    font-size: 18px;
+    background-color: rgb(59, 125, 164);
+    border-radius: 50px;
+    column-gap: inherit;
+}
+
+.menu div {
+    float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.img {
+    width:7rem;
+    height: 7rem;
+    padding: 0%;
+}
+
+.button {
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.button:hover {
+    color: #FF7629;
+    background-color: rgb(59, 125, 164);
+}
+
+.mbutt {
+    width: 40%;
+    padding-top: 32px;
+}
+
+.test {
+    display: flex;
+    flex-direction: column;
+    background-color: blanchedalmond;
+    border-radius: 30px;
+    padding: 2%;
+    row-gap: 2%;
+}
+
+.subl {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    margin-bottom: 1%;
+}
+
+.mlist {
+    display: flex;
+    flex-direction: row;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+}
+
+.butt {
+    text-align: center;
+}
+
+.lits {
+    width: 70%;
+    padding-left: 1.5%;
+    padding-top: 1%;
+}
+
+.litt {
+    width: 30%;
+}
+
+@media only screen and (max-width: 640px) {
+    .butt {
+        width: 75%;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .butt {
+        width: 50%;
+    }
+
+    .button {
+        padding:12px 24px;
+    }
+
+    .mbutt {
+        font-size:12px; 
+    }
+}
+
+@media only screen and (min-width: 850px) {
+    .menu {
+        border-radius: 18px;
+    }
+
+    .button {
+        border-radius: 18px;
+    }
+
+    .subl {
+        border-radius: 18px;
+    }
+
+    .test {
+        border-radius: 18px;
+    }
+
+    .butt {
+        width: 125%;
+    }
+}
+
+@media only screen and (min-width: 1500px) {
+    .menu {
+        padding:1%;
+    }
+}
