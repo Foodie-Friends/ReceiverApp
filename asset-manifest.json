@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/ReceiverApp/static/css/main.633b104a.css",
+    "main.js": "/ReceiverApp/static/js/main.bd0396c6.js",
+    "static/js/787.4db5d7d9.chunk.js": "/ReceiverApp/static/js/787.4db5d7d9.chunk.js",
+    "static/media/Khaan_Paan.png": "/ReceiverApp/static/media/Khaan_Paan.d03cd02d9170a5bae81c.png",
+    "index.html": "/ReceiverApp/index.html",
+    "main.633b104a.css.map": "/ReceiverApp/static/css/main.633b104a.css.map",
+    "main.bd0396c6.js.map": "/ReceiverApp/static/js/main.bd0396c6.js.map",
+    "787.4db5d7d9.chunk.js.map": "/ReceiverApp/static/js/787.4db5d7d9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.633b104a.css",
+    "static/js/main.bd0396c6.js"
+  ]
+}
